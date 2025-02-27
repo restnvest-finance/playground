@@ -17,9 +17,9 @@ def create_account():
    
     payload = {
         "identity": {
-            "given_name": "John",
+            "given_name": "Pranjal",
             "middle_name": "A",
-            "family_name": "Doe",
+            "family_name": "Chaubey",
             "date_of_birth": "1980-01-01",  
             "tax_id": "132333458",
             "tax_id_type": "USA_SSN",
@@ -30,7 +30,7 @@ def create_account():
             "phone_number": "5551234567"
         },
         "contact": {
-            "email_address": "john.doe@example.com",
+            "email_address": "pranjalchaubey001@gmail.com.com",
             "phone_number": "5551234567",
             "street_address": [
                 "123 Main Street",

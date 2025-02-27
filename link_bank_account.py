@@ -15,11 +15,17 @@ def link_bank_account(account_id):
 
  
     payload = {
-        "bank_account_type": "CHECKING",
-        "account_owner_name": "John Doe",
-        "bank_account_number": "123456789",
-        "bank_routing_number": "021000021"
-    }
+        # "bank_account_type": "CHECKING",
+        # "account_owner_name": "John Doe",
+        # "bank_account_number": "123456789",
+        # "bank_routing_number": "021000021"
+        
+  "account_owner_name": "Pranjal Chaubey",
+  "bank_account_type": "CHECKING",
+  "bank_account_number": "32131231abc",
+  "bank_routing_number": "123103716",
+  "nickname": "Bank of America Checking"
+}
 
     headers = {
         "accept": "application/json",
@@ -54,7 +60,7 @@ def link_bank_account(account_id):
 
 if __name__ == "__main__":
     
-    account_id = "56eb1cff-a756-42f7-bae5-46d51aa12649"
+    account_id = "4f11d94c-5963-49bb-96df-3848c11280c6"
     relationship_id = link_bank_account(account_id)
 
     if relationship_id:
